@@ -1,0 +1,11 @@
+#Default GitHub
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa
+
+#PSS Other Github
+Host github-pss
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsaPSS
